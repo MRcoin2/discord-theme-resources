@@ -23,6 +23,8 @@
 
 	--vtransparencycolor:			var(--transparencycolor,			var(--dtransparencycolor));
 	--vtransparencyalpha:			var(--transparencyalpha,			var(--dtransparencyalpha));
+	--vselectioncolor:				var(--selectioncolor,				var(--dselectioncolor));
+	--vselectionalpha:				var(--selectionalpha,				var(--dselectionalpha));
 	--vmessagetransparency:			var(--messagetransparency,			var(--dmessagetransparency));
 	--vusechatbubbles: 				calc(var(--vmessagetransparency) / (var(--vmessagetransparency) + 0.00000000000000000000001));
 	--vguildchanneltransparency:	var(--guildchanneltransparency,		var(--dguildchanneltransparency));
