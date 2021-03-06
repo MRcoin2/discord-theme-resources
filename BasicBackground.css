@@ -1606,6 +1606,9 @@ body::before {
 .member-3-YXUe.selected-aXhQR6 .premiumIcon-2IFPOX {
 	color: rgb(var(--fontwhite1)) !important;
 }
+.premiumIcon-1rDbWQ.icon-1A2_vz.da-premiumIcon.da-icon{
+	color: rgb(255,0,255) !important;
+}
 
 .membersGroup-v9BXpm {										/* roleheader												*/
 	color: rgb(var(--fontwhite2));
