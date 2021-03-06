@@ -6,7 +6,6 @@
 	--dtransparencycolor:			0,0,0;
 	--dtransparencyalpha:			0.15;
 	--dselectioncolor:				100,100,100;
-	--dselectionalpha:				0.25;
 	--dmessagetransparency:			0.5;
 	--dguildchanneltransparency:	0.25;
 	--dmemberlisttransparency:		0.0;
@@ -24,7 +23,6 @@
 	--vtransparencycolor:			var(--transparencycolor,			var(--dtransparencycolor));
 	--vtransparencyalpha:			var(--transparencyalpha,			var(--dtransparencyalpha));
 	--vselectioncolor:				var(--selectioncolor,				var(--dselectioncolor));
-	--vselectionalpha:				var(--selectionalpha,				var(--dselectionalpha));
 	--vmessagetransparency:			var(--messagetransparency,			var(--dmessagetransparency));
 	--vusechatbubbles: 				calc(var(--vmessagetransparency) / (var(--vmessagetransparency) + 0.00000000000000000000001));
 	--vguildchanneltransparency:	var(--guildchanneltransparency,		var(--dguildchanneltransparency));
@@ -5725,7 +5723,8 @@ body::before {
 }
 
 ::selection {												/* selection												*/
-	background: rgb(0,255,0); /*rgb(var(--vselectioncolor));*/
+	background: rgb(var(--vselectioncolor)); /*rgb(var(--vselectioncolor));*/
+	background: rgb(var(--vselectioncolor))); /*rgb(var(--vselectioncolor));*/
 }
 .highlight {
 	background: rgb(var(--vselectioncolor));
