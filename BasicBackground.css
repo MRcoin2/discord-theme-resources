@@ -5724,7 +5724,6 @@ body::before {
 
 ::selection {												/* selection												*/
 	background: rgb(var(--vselectioncolor)); /*rgb(var(--vselectioncolor));*/
-	background: rgb(var(--vselectioncolor))); /*rgb(var(--vselectioncolor));*/
 }
 .highlight {
 	background: rgb(var(--vselectioncolor));
