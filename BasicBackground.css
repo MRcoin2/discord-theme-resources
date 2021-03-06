@@ -5,6 +5,8 @@
 :root {
 	--dtransparencycolor:			0,0,0;
 	--dtransparencyalpha:			0.15;
+	--dselectioncolor:				100,100,100;
+	--dselectionalpha:				0.25;
 	--dmessagetransparency:			0.5;
 	--dguildchanneltransparency:	0.25;
 	--dmemberlisttransparency:		0.0;
@@ -3478,7 +3480,7 @@ body::before {
 
 #app-mount .regionSelectModal-12e-57 {						/* modal				container							*/
 	background-color: transparent;
-	box-shadow: 0 0 0 1px rgba(var(--vtransparencycolor), 0.3), 0 2px 10px 0 rgba(var(--vtransparencycolor), 0.3);
+	box-shadow: 0 0 0 1px rgba(var(--vselectioncolor), 0.3), 0 2px 10px 0 rgba(var(--vselectioncolor), 0.3);
 	position: relative;
 	overflow: hidden;
 }
@@ -3504,7 +3506,7 @@ body::before {
 	bottom: 0;
 	right: 0;
 	left: 0;
-	background-color: rgba(var(--vtransparencycolor), calc(var(--vtransparencyalpha) + 0.2));
+	background-color: rgba(var(--vselectioncolor), calc(var(--vselectionalpha) + 0.2));
 	width: unset;
 	height: unset;
 	pointer-events: none;
