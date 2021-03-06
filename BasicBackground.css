@@ -5728,7 +5728,7 @@ body::before {
 	background: rgb(var(--vselectioncolor));
 }
 .highlight {
-	background: rgb(var(--vaccentcolor));
+	background: rgb(var(--vselectioncolor));
 }
 
 #app-mount .elevationLow-2lY09M, #app-mount .elevationLow-126AxN, .lightElevationLow-3_Ybxi, .darkElevationLow-DABD7i {
