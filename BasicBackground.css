@@ -7886,11 +7886,11 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.typeWindows-
 	display: inline !important;
 	position: absolute !important;
 	top: unset !important;
-	left: unset !important;
+	left: 5 !important;
 	bottom: unset !important;
 	right: unset !important;
 	opacity: 1 !important;
-	padding: 5 !important;
+	padding: 0 !important;
 	margin: 0 !important;
 	visibility: visible !important;
 	transform: unset !important;
