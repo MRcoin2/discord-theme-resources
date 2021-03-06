@@ -7855,6 +7855,44 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 	pointer-events: none !important;
 }
 
+/* ~~~~		20.		WATERMARK						~~~~ */
+
+html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3 > div.wordmark-2iDDfm {
+	color: white !important;
+	display: block !important;
+	position: absolute !important;
+	max-width: unset !important;
+	min-width: unset !important;
+	width: 55px !important;
+	max-height: unset !important;
+	min-height: unset !important;
+	height: 16px !important;
+	margin: 0 !important;
+	padding: 3px 9px 3px !important;
+	top: 0 !important;
+	left: 0 !important;
+	bottom: unset !important;
+	right: unset !important;
+	opacity: 0.6 !important;
+	visibility: visible !important;
+	transform: unset !important;
+	animation: unset !important;
+}
+html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3 > div.wordmark-2iDDfm::after {
+	content: url('data:image/svg+xml; utf8, <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><g><title>Layer 1</title><rect stroke-width="0" id="svg_2" height="19.5652" width="20" y="20.85507" x="21" opacity="undefined" stroke="#000" fill="#000000"/><rect stroke-width="0" id="svg_3" height="19.5652" width="20" y="21" x="61" opacity="undefined" stroke="#000" fill="#000000"/><rect stroke-width="0" id="svg_4" height="30" width="20" y="40" x="41.14493" opacity="undefined" stroke="#000" fill="#000000"/><rect stroke-width="0" id="svg_5" height="30" width="10" y="51" x="31.38017" opacity="undefined" stroke="#000" fill="#000000"/><rect stroke-width="0" id="svg_6" height="30" width="10" y="51" x="60.53363" opacity="undefined" stroke="#000" fill="#000000"/></g></svg>') !important;
+	display: inline !important;
+	position: absolute !important;
+	top: unset !important;
+	left: unset !important;
+	bottom: unset !important;
+	right: unset !important;
+	opacity: 1 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	visibility: visible !important;
+	transform: unset !important;
+	animation: unset !important;
+}
 
 /* ~~~~		20.		WATERMARK						~~~~ */
 
