@@ -69,7 +69,9 @@
 	--elevation-high: 0 2px 10px 0 rgba(var(--vtransparencycolor), 0.3);
 	--logo-primary: rgb(var(--fontwhite1));
 }
-
+.closeContent-I3JbQJ{
+	color: rgb(0,255,20);
+}
 .memberListHeader-c-ghag, .memberListItemText-Th1aTk{
 	background-color: rgba(var(--vtransparencycolor), 0.2);
 }
@@ -1610,7 +1612,7 @@ body::before {
 	color: rgb(var(--fontwhite1)) !important;
 }
 .premiumIcon-1rDbWQ.icon-1A2_vz.da-premiumIcon.da-icon{
-	color: rgb(255,0,255) !important;
+	color: rgb(0,255,20) !important;
 }
 
 .membersGroup-v9BXpm {										/* roleheader												*/
